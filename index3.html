@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Sample Title
+	</title>
+	<link rel="icon" type="text/css" href="user.svg">
+	<meta nmae="viewport"content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		body {
+			background-color: #B1C39A   ;
+		}
+
+			.parent{
+				align-items: center;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+				
+			}
+			.child{
+				background-color: #967ED5  ;
+				border: 5px solid rgb(3,123,15);
+				width: 20%;
+				font-size: 50px;
+				padding:1%;
+				margin: 1%;`
+				justify-content: space-between;
+			}
+			/*Small scale devices */
+			@media only screen and (min-width: 320px) and (max-width: 480px)
+			{
+				.child{
+					width: 40%;
+					font-size: 25px;
+					background-color: yellow;
+				}
+			}
+				/* Medium scale device */
+				@media only screen and (min-width: 481px) and (max-width: 767px)
+				{
+					.child{
+						width: 40%;
+						font-weight: 600;
+						border: 3px solid #3897CF ;
+						border-radius: 20px;
+						box-shadow: 10px 10px 10px rgb(10,46,46);
+					}
+				}
+				/* Large SCale Devices */
+				@media only screen and (min-width: 768px) and (max-width: 1024px)
+				{
+					.child{
+						width: 25%;
+						border-radius: 20px;
+						box-shadow: 10px 10px 10px -8px #000;
+					}
+				}
+
+			
+		</style>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content='width=device-width,initial-scale=1'/>
+</head>
+<body>
+	<section class="parent">
+		<article class="child"> Indian </article>
+		<article class="child"> China</article>
+		<article class="child"> London</article>
+		<article class="child"> America</article>
+	</section>
+
+</body>
+</html>

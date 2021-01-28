@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Resume
+	</title>
+	<style>
+		header{
+			background-color: pink;
+			color: green;
+			padding: 1%;
+		}
+		.parent{
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+		}
+		.child-1{
+			width: 30%;
+			border:1px solid green;
+			box-shadow: 0px 8px 8px-8px blue;
+			padding: 1%
+			margin:1%;
+		}
+		.child-2{
+			width: 30%;
+			border:1px solid blue;
+			box-shadow: 0px 8px 8px-8px gray;
+			padding: 1%
+			margin:1%;
+		}
+		.child-1 img{
+			width: 50%;
+			text-align: center;
+			display: block;
+			margin: 0% auto;
+		}
+		.child-1 h2{
+			text-align: center;
+		}
+			@media only screen and (min-width: 320%) and (max-width: 480px){
+				.child-1,
+				.child-2{
+					width: 90%;
+					font-size: 25px;
+				}
+			}
+			@media only screen and (min-width: 768%) and (max-width: 1024px){
+				.child-1,
+				.child-2{
+					width: 90%;
+					font-size: 25px;
+				}
+			}
+	</style>
+</head>
+<body>
+	<!-- Header-->
+	<header>
+		Profile Information
+	</header>
+	<!-- Content-->
+	<main class="parent">
+		<!-- child-1-->
+		<article class="child-1">
+			<img src="flowers.svg"alt="user"> <br>
+			<h2> Divya </h2>
+			<a href="mailto:divya@gmail.com">divya@gmail.com</a>
+		</article>
+		<!-- chikd-2-->
+		<article class="child-2"></article>
+		<h2> Summary </h2> <hr>
+		<ul>
+			<li> having knowledge on c,c++</li>
+			<li> java</li>
+			<li>python</li></hr>
+
+		</ul>
+	</main>
+
+
+	
+	</main>
+
+</body>
+</html>
